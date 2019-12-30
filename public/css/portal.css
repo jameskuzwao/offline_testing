@@ -126,12 +126,9 @@ img {
 }
 
 #index-of-topics-btn{
-    /* float: left;
-    margin-left: 20%;
-    padding: 3%; */
-    /*background-color: #159B15;*/
+  
     box-shadow: 2px 2px 2px 2px #3F3F3F;
-    /* border: #159B15; */
+    
     border: #071D49;
 }
 
@@ -259,22 +256,6 @@ h2 {
   
 
 
-/* 
-#literacy-assessments-btn{
-    float: right;
-    margin-right: 2%;
-    padding: 3%; */
-    /*background-color: #159B15;*/
-    /* box-shadow: 2px 2px 2px 2px #3F3F3F;
-    border: #159B15;
-} */
-
-
-
-/* .carousel {
-    margin-left: 15%;
-    margin-right: 15%;
-} */
 
 ul.slides {
     display: block;
@@ -304,7 +285,7 @@ ul.slides input {
     display: block; 
 }
 
-.slide-image {
+.slide-dashboard {
     display: block;
     position: absolute;
     width: 100%;
@@ -334,7 +315,7 @@ ul.slides input {
     cursor: pointer;
 }
 
-.slide-image:hover + .carousel-controls label{
+.slide-dashboard:hover + .carousel-controls label{
     opacity: 0.5;
 }
 
@@ -354,26 +335,7 @@ ul.slides input {
     right: 0;
 }
 
-.carousel-dots {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-    z-index: 999;
-    text-align: center;
-}
-
-.carousel-dots .carousel-dot {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #fff;
-    opacity: 0.5;
-    margin: 10px;
-}
-
-input:checked + .slide-container .slide-image {
+input:checked + .slide-container .slide-dashboard {
     opacity: 1;
     transform: scale(1);
     transition: opacity 1s ease-in-out;
@@ -382,15 +344,3 @@ input:checked + .slide-container .slide-image {
 input:checked + .slide-container .carousel-controls label {
      display: block; 
 }
-
-input#img-1:checked ~ .carousel-dots label#img-dot-1,
-input#img-2:checked ~ .carousel-dots label#img-dot-2,
-input#img-3:checked ~ .carousel-dots label#img-dot-3,
-input#img-4:checked ~ .carousel-dots label#img-dot-4,
-input#img-5:checked ~ .carousel-dots label#img-dot-5,
-input#img-6:checked ~ .carousel-dots label#img-dot-6 {
-	opacity: 1;
-}
-
-
-input:checked + .slide-container .nav label { display: block; }
