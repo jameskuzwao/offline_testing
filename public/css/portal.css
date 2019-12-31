@@ -251,6 +251,16 @@ h2 {
     padding-left: 24%;
 }
 
+
+ul.slides {
+    display: block;
+    position: relative;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
   
   }
   
@@ -303,7 +313,8 @@ ul.slides input {
     z-index: 999;
     font-size: 100px;
     line-height: 600px;
-    color: #fff;
+    /* color: #fff; */
+    color:#071D49
 }
 
 .carousel-controls label {
