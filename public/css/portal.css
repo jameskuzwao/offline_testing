@@ -44,13 +44,18 @@ body{
 } */
 
 
-.mainBackground {
+/* .mainBackground {
     background:-webkit-linear-gradient(#fff);
     background:-o-linear-gradient(#fff);
     background:-moz-linear-gradient(#fff);
     background:linear-gradient(#fff) fixed;
-}
+} */
 
+
+.titles{
+    margin-top:-5%; 
+    color:#f1f1f1f1;
+}
 
 
 /* Image Align */
@@ -90,23 +95,26 @@ img {
 
 /* PRE ALPHA HEADING */
 #prealpha-heading {
-    background-color: #F4D19C;
-    border: #F4D19C;
+    /* background-color: #F4D19C; */
+    background-color: #6CACE4;   
+    /* border: #F4D19C; */
     box-shadow: 2px 2px 2px 2px #3F3F3F;
 }
 
 
 /* ALPHA HEADING */
 #alpha-heading {
-    background-color: #CCFFCC;
-    border: #CCFFCC;
+    /* background-color: #CCFFCC; */
+    background-color:#84BD00;
+    /* border: #CCFFCC; */
     box-shadow: 2px 2px 2px 2px #3F3F3F;
 }
 
 /* BRAVO */
 #bravo-heading {
-    background-color: #C5D9F1;
-    border: #C5D9F1;
+    /* background-color: #C5D9F1; */
+    background-color: #7474C1;
+    /* border: #C5D9F1; */
     box-shadow: 2px 2px 2px 2px #3F3F3F;
 }
 
