@@ -43,16 +43,15 @@
             <img src="images/edulution_logo.png" class="img-responsive center-block">
           </div>
           <form name="testForm">
-            <div class="HeaderbannerLabel">GRADE 7 ENTRANCE TEST</div>
-            <p class="test_name">ENTRANCE TEST</p>
+            <p></p>
+            <p class="test_name">GRADE 7 ASSESSMENT</p>
             <div ng-include="'pmodule/templates/username_input.html'"></div>
             <div class="HeaderbannerLabel">INSTRUCTIONS</div>
-            <h3>Time allowed: <b>60 Minutes</b></h3>
+            <h3>Time allowed: <b>45 Minutes</b></h3>
             <h3>Calculators are NOT allowed</h3>
             <div class="HeaderbannerLabel extend_banner">ASSESSMENT</div>
             <!-- TODO: Add form name,action and method -->
             <!-- <form name="testForm" action="/submit_test" method="post"> -->
-            <div class="HeadertopicLabel">PLACEMENT TEST</div>
             <h3>(1) 31 726 &plus; 42 832 &plus; 15 303 &plus; 50 000 &equals;</h3>
             <p>
               <!-- TODO: Add value attribute to each radio button -->
